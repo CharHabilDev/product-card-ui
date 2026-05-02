@@ -1,0 +1,98 @@
+/* 1. Reset */
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 2. Variables */
+:root{
+    /* Couleur */
+    --primary: #111827;
+    --text-primary: #ffffff;
+    --text-secondary: #57524a;
+    --text-secondary-light: #a3a09b;
+    --text-tertiary: #78756e;
+
+    --bg-primary: #fafaf9;
+
+    --border-color: #e7e5e0;
+
+    --badge-bg-danger: #fdf2f8;
+    --color-danger: #db2777; 
+
+    --badge-bg-success: #f0fdf4;
+    --color-success: #047857;
+
+    --badge-bg-warning: #fffbeb;
+    --color-warning: #b45309;
+
+    --color-accent: #ec4899;
+    --color-star: #fbbf24;
+
+    --color-button-primary: #10b981;
+
+
+    /* Police taille */
+    --title-h1-size: 1.8rem;
+    --title-h3-size: 1rem; /* Product title */
+    --text-badge-size: 0.7rem;
+    --text-price-size: 1.2rem;
+    --text-price-promo-size: 0.8rem;
+}
+
+/* 3. Styles globaux */
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    line-height: 1.5;
+    background: var(--bg-primary);
+    color: var(--text-secondary);
+    min-height: 100vh;
+}
+
+.card {
+    background: #fff;
+    border: 10px;
+    padding: 1rem;
+}
+
+.card__title{
+    font-size: var(--title-h3-size);
+    font-weight: 600;
+}
+
+.card__price{
+    font-size: var(--text-price-size);
+    font-weight: 700;
+}
+
+.card__price--promo{
+    font-size: var(--text-price-promo-size);
+    font-weight: 300;
+}
+
+
+/* 4. Layout */
+/* 5. Composants */
+/* 6. Section */
+/* 7. Responsive */
+
+/* Tablet */
+@media (min-width: 640px){
+
+}
+
+
+/* Desktop */
+@media (min-width: 1024px){
+
+}
+
+
+/* Large */
+@media (min-width: 1280px){
+
+}
