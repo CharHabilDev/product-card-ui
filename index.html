@@ -58,7 +58,19 @@
             class="header__action header__action--cart"
             aria-label="Panier"
           >
-            <i class="fa-solid fa-bag-shopping" aria-hidden="true"></i>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <path d="M16 10a4 4 0 0 1-8 0" />
+            </svg>
             <span class="badge">
               <span class="visually-hidden">Produits dans le panier :</span>
               3
@@ -73,18 +85,708 @@
 
       <section class="products">
         <div class="products__container">
-
           <div class="products__header">
             <h2 class="products__title">Nouveaux Arrivages</h2>
+
             <p class="products__description">
               Des pièces soigneusement sélectionnées pour votre style.
             </p>
           </div>
 
           <div class="products__grid">
-            <article class="product-card"></article>
+            <article class="product-card">
+              <div class="product-card__media">
+                <img
+                  src="assets/images/veste_coach_oversize.png"
+                  alt="Veste Coach Oversize"
+                  class="product-card__image"
+                />
+
+                <div class="product-card__overlay">
+                  <div class="product-card__tags">
+                    <span class="product-card__tag product-card__tag--promo">
+                      Promo
+                    </span>
+
+                    <span class="product-card__tag product-card__tag--discount">
+                      -27%
+                    </span>
+                  </div>
+
+                  <button
+                    type="button"
+                    class="product-card__favorite"
+                    aria-label="Ajouter aux favoris"
+                  >
+                    <i class="fa-regular fa-heart" aria-hidden="true"></i>
+                  </button>
+                </div>
+
+                <button
+                  type="button"
+                  class="product-card__quick-add"
+                  aria-label="Ajouter au panier"
+                >
+                  Ajouter au panier
+                </button>
+              </div>
+
+              <div class="product-card__meta">
+                <p class="product-card__brand">STUDIO NORD</p>
+
+                <div class="product-card__rating">
+                  <i
+                    class="fa-regular fa-star product-card__rating-icon"
+                    aria-hidden="true"
+                  ></i>
+
+                  <span class="product-card__rating-value">4.7</span>
+
+                  <span class="product-card__rating-count">(185)</span>
+                </div>
+              </div>
+
+              <div class="product-card__content">
+                <h3 class="product-card__title">Veste Coach Oversize</h3>
+
+                <div class="product-card__footer">
+                  <p class="product-card__price">
+                    <span class="product-card__price-current"> 189 €</span>
+
+                    <span class="product-card__price-old">260 €</span>
+                  </p>
+
+                  <button
+                    type="button"
+                    class="product-card__add-to-cart"
+                    aria-label="Ajouter au panier"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      aria-hidden="true"
+                      focusable="false"
+                    >
+                      <path
+                        d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0  0 0 2-2V6l-3-4z"
+                      />
+                      <line x1="3" y1="6" x2="21" y2="6" />
+                      <path d="M16 10a4 4 0 0 1-8 0" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+
+
+            
+            <article class="product-card">
+              <div class="product-card__media">
+                <img
+                  src="assets/images/t_shirt_essential_coton.png"
+                  alt="T-Shirt Essential Coton"
+                  class="product-card__image"
+                />
+
+                <div class="product-card__overlay">
+                  <div class="product-card__tags">
+                    <span class="product-card__tag product-card__tag--new">
+                      Nouveau
+                    </span>
+                  </div>
+
+                  <button
+                    type="button"
+                    class="product-card__favorite"
+                    aria-label="Ajouter aux favoris"
+                  >
+                    <i class="fa-regular fa-heart" aria-hidden="true"></i>
+                  </button>
+                </div>
+
+                <button
+                  type="button"
+                  class="product-card__quick-add"
+                  aria-label="Ajouter au panier"
+                >
+                  Ajouter au panier
+                </button>
+              </div>
+
+              <div class="product-card__meta">
+                <p class="product-card__brand">ATELIER BLANC</p>
+
+                <div class="product-card__rating">
+                  <i
+                    class="fa-regular fa-star product-card__rating-icon"
+                    aria-hidden="true"
+                  ></i>
+
+                  <span class="product-card__rating-value">4.9</span>
+
+                  <span class="product-card__rating-count">(345)</span>
+                </div>
+              </div>
+
+              <div class="product-card__content">
+                <h3 class="product-card__title">T-Shirt Essential Coton</h3>
+
+                <div class="product-card__footer">
+                  <p class="product-card__price">
+                    <span class="product-card__price-current"> 55 €</span>
+                  </p>
+
+                  <button
+                    type="button"
+                    class="product-card__add-to-cart"
+                    aria-label="Ajouter au panier"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      aria-hidden="true"
+                      focusable="false"
+                    >
+                      <path
+                        d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0  0 0 2-2V6l-3-4z"
+                      />
+                      <line x1="3" y1="6" x2="21" y2="6" />
+                      <path d="M16 10a4 4 0 0 1-8 0" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+
+
+
+            <article class="product-card">
+              <div class="product-card__media">
+                <img
+                  src="assets/images/chaussure_cargo_relaxed.jpeg"
+                  alt="Chaussure Cargo Relaxed"
+                  class="product-card__image"
+                />
+
+                <div class="product-card__overlay">
+                  <div class="product-card__tags">
+                    <span class="product-card__tag product-card__tag--bestseller">
+                      Bestseller
+                    </span>
+                  </div>
+
+                  <button
+                    type="button"
+                    class="product-card__favorite"
+                    aria-label="Ajouter aux favoris"
+                  >
+                    <i class="fa-regular fa-heart" aria-hidden="true"></i>
+                  </button>
+                </div>
+
+                <button
+                  type="button"
+                  class="product-card__quick-add"
+                  aria-label="Ajouter au panier"
+                >
+                  Ajouter au panier
+                </button>
+              </div>
+
+              <div class="product-card__meta">
+                <p class="product-card__brand">URBAN FORM</p>
+
+                <div class="product-card__rating">
+                  <i
+                    class="fa-regular fa-star product-card__rating-icon"
+                    aria-hidden="true"
+                  ></i>
+
+                  <span class="product-card__rating-value">4.5</span>
+
+                  <span class="product-card__rating-count">(87)</span>
+                </div>
+              </div>
+
+              <div class="product-card__content">
+                <h3 class="product-card__title">Chaussure Cargo Relaxed</h3>
+
+                <div class="product-card__footer">
+                  <p class="product-card__price">
+                    <span class="product-card__price-current"> 120 €</span>
+                  </p>
+
+                  <button
+                    type="button"
+                    class="product-card__add-to-cart"
+                    aria-label="Ajouter au panier"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      aria-hidden="true"
+                      focusable="false"
+                    >
+                      <path
+                        d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0  0 0 2-2V6l-3-4z"
+                      />
+                      <line x1="3" y1="6" x2="21" y2="6" />
+                      <path d="M16 10a4 4 0 0 1-8 0" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+
+
+            <article class="product-card">
+              <div class="product-card__media">
+                <img
+                  src="assets/images/chaussure_sneakers.png"
+                  alt="Chaussure Sneakers"
+                  class="product-card__image"
+                />
+
+                <div class="product-card__overlay">
+                  <div class="product-card__tags">
+                    <span class="product-card__tag product-card__tag--promo">
+                      Promo
+                    </span>
+
+                    <span class="product-card__tag product-card__tag--discount">
+                      -16%
+                    </span>
+                  </div>
+
+                  <button
+                    type="button"
+                    class="product-card__favorite"
+                    aria-label="Ajouter aux favoris"
+                  >
+                    <i class="fa-regular fa-heart" aria-hidden="true"></i>
+                  </button>
+                </div>
+
+                <button
+                  type="button"
+                  class="product-card__quick-add"
+                  aria-label="Ajouter au panier"
+                >
+                  Ajouter au panier
+                </button>
+              </div>
+
+              <div class="product-card__meta">
+                <p class="product-card__brand">SOL STUDIO</p>
+
+                <div class="product-card__rating">
+                  <i
+                    class="fa-regular fa-star product-card__rating-icon"
+                    aria-hidden="true"
+                  ></i>
+
+                  <span class="product-card__rating-value">4.8</span>
+
+                  <span class="product-card__rating-count">(204)</span>
+                </div>
+              </div>
+
+              <div class="product-card__content">
+                <h3 class="product-card__title">Chaussure Sneakers</h3>
+
+                <div class="product-card__footer">
+                  <p class="product-card__price">
+                    <span class="product-card__price-current"> 210 €</span>
+
+                    <span class="product-card__price-old"> 250 €</span>
+                  </p>
+
+                  <button
+                    type="button"
+                    class="product-card__add-to-cart"
+                    aria-label="Ajouter au panier"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      aria-hidden="true"
+                      focusable="false"
+                    >
+                      <path
+                        d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0  0 0 2-2V6l-3-4z"
+                      />
+                      <line x1="3" y1="6" x2="21" y2="6" />
+                      <path d="M16 10a4 4 0 0 1-8 0" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+
+
+
+            <article class="product-card">
+              <div class="product-card__media">
+                <img
+                  src="assets/images/chemise_a_manches_longues.png"
+                  alt="Chemise Manches Longues"
+                  class="product-card__image"
+                />
+
+                <div class="product-card__overlay">
+                  <div class="product-card__tags">
+                    <span class="product-card__tag product-card__tag--new">
+                      Nouveau
+                    </span>
+                  </div>
+
+                  <button
+                    type="button"
+                    class="product-card__favorite"
+                    aria-label="Ajouter aux favoris"
+                  >
+                    <i class="fa-regular fa-heart" aria-hidden="true"></i>
+                  </button>
+                </div>
+
+                <button
+                  type="button"
+                  class="product-card__quick-add"
+                  aria-label="Ajouter au panier"
+                >
+                  Ajouter au panier
+                </button>
+              </div>
+
+              <div class="product-card__meta">
+                <p class="product-card__brand">ATELIER BLANC</p>
+
+                <div class="product-card__rating">
+                  <i
+                    class="fa-regular fa-star product-card__rating-icon"
+                    aria-hidden="true"
+                  ></i>
+
+                  <span class="product-card__rating-value">4.6</span>
+
+                  <span class="product-card__rating-count">(61)</span>
+                </div>
+              </div>
+
+              <div class="product-card__content">
+                <h3 class="product-card__title">Chemise Manches Longues</h3>
+
+                <div class="product-card__footer">
+                  <p class="product-card__price">
+                    <span class="product-card__price-current"> 95 €</span>
+                  </p>
+
+                  <button
+                    type="button"
+                    class="product-card__add-to-cart"
+                    aria-label="Ajouter au panier"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      aria-hidden="true"
+                      focusable="false"
+                    >
+                      <path
+                        d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0  0 0 2-2V6l-3-4z"
+                      />
+                      <line x1="3" y1="6" x2="21" y2="6" />
+                      <path d="M16 10a4 4 0 0 1-8 0" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+
+
+
+            <article class="product-card">
+              <div class="product-card__media">
+                <img
+                  src="assets/images/hoodie_molleton_premium.png"
+                  alt="Hoodie Molleton Premium"
+                  class="product-card__image"
+                />
+
+                <div class="product-card__overlay">
+                  <div class="product-card__tags">
+                    <span class="product-card__tag product-card__tag--limited">
+                      Édition Limitée
+                    </span>
+                  </div>
+
+                  <button
+                    type="button"
+                    class="product-card__favorite"
+                    aria-label="Ajouter aux favoris"
+                  >
+                    <i class="fa-regular fa-heart" aria-hidden="true"></i>
+                  </button>
+                </div>
+
+                <button
+                  type="button"
+                  class="product-card__quick-add"
+                  aria-label="Ajouter au panier"
+                >
+                  Ajouter au panier
+                </button>
+              </div>
+
+              <div class="product-card__meta">
+                <p class="product-card__brand">STUDIO NORD</p>
+
+                <div class="product-card__rating">
+                  <i
+                    class="fa-regular fa-star product-card__rating-icon"
+                    aria-hidden="true"
+                  ></i>
+
+                  <span class="product-card__rating-value">4.4</span>
+
+                  <span class="product-card__rating-count">(95)</span>
+                </div>
+              </div>
+
+              <div class="product-card__content">
+                <h3 class="product-card__title">Hoodie Molleton Premium</h3>
+
+                <div class="product-card__footer">
+                  <p class="product-card__price">
+                    <span class="product-card__price-current"> 145 €</span>
+                  </p>
+
+                  <button
+                    type="button"
+                    class="product-card__add-to-cart"
+                    aria-label="Ajouter au panier"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      aria-hidden="true"
+                      focusable="false"
+                    >
+                      <path
+                        d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0  0 0 2-2V6l-3-4z"
+                      />
+                      <line x1="3" y1="6" x2="21" y2="6" />
+                      <path d="M16 10a4 4 0 0 1-8 0" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+
+
+            <article class="product-card">
+              <div class="product-card__media">
+                <img
+                  src="assets/images/sac_tote_cuir_vegetal.jpeg"
+                  alt="Sac Tote Cuir Végétal"
+                  class="product-card__image"
+                />
+
+                <div class="product-card__overlay">
+                  <div class="product-card__tags">
+    
+                  </div>
+
+                  <button
+                    type="button"
+                    class="product-card__favorite"
+                    aria-label="Ajouter aux favoris"
+                  >
+                    <i class="fa-regular fa-heart" aria-hidden="true"></i>
+                  </button>
+                </div>
+
+                <button
+                  type="button"
+                  class="product-card__quick-add"
+                  aria-label="Ajouter au panier"
+                >
+                  Ajouter au panier
+                </button>
+              </div>
+
+              <div class="product-card__meta">
+                <p class="product-card__brand">STUDIO NORD</p>
+
+                <div class="product-card__rating">
+                  <i
+                    class="fa-regular fa-star product-card__rating-icon"
+                    aria-hidden="true"
+                  ></i>
+
+                  <span class="product-card__rating-value">4.7</span>
+
+                  <span class="product-card__rating-count">(185)</span>
+                </div>
+              </div>
+
+              <div class="product-card__content">
+                <h3 class="product-card__title">Sac Tote Cuir Végétal</h3>
+
+                <div class="product-card__footer">
+                  <p class="product-card__price">
+                    <span class="product-card__price-current"> 189 €</span>
+
+                    <span class="product-card__price-old">260 €</span>
+                  </p>
+
+                  <button
+                    type="button"
+                    class="product-card__add-to-cart"
+                    aria-label="Ajouter au panier"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      aria-hidden="true"
+                      focusable="false"
+                    >
+                      <path
+                        d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0  0 0 2-2V6l-3-4z"
+                      />
+                      <line x1="3" y1="6" x2="21" y2="6" />
+                      <path d="M16 10a4 4 0 0 1-8 0" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+
+
+            <article class="product-card">
+              <div class="product-card__media">
+                <img
+                  src="assets/images/manteau_long_cachemire.jpeg"
+                  alt="Manteau Long Cachemire"
+                  class="product-card__image"
+                />
+
+                <div class="product-card__overlay">
+                  <div class="product-card__tags">
+                    <span class="product-card__tag product-card__tag--promo">
+                      Promo
+                    </span>
+
+                    <span class="product-card__tag product-card__tag--discount">
+                      -28%
+                    </span>
+                  </div>
+
+                  <button
+                    type="button"
+                    class="product-card__favorite"
+                    aria-label="Ajouter aux favoris"
+                  >
+                    <i class="fa-regular fa-heart" aria-hidden="true"></i>
+                  </button>
+                </div>
+
+                <button
+                  type="button"
+                  class="product-card__quick-add"
+                  aria-label="Ajouter au panier"
+                >
+                  Ajouter au panier
+                </button>
+              </div>
+
+              <div class="product-card__meta">
+                <p class="product-card__brand">STUDIO NORD</p>
+
+                <div class="product-card__rating">
+                  <i
+                    class="fa-solid fa-star product-card__rating-icon"
+                    aria-hidden="true"
+                  ></i>
+
+                  <span class="product-card__rating-value">4.8</span>
+
+                  <span class="product-card__rating-count">(47)</span>
+                </div>
+              </div>
+
+              <div class="product-card__content">
+                <h3 class="product-card__title">Manteau Long Cachemire</h3>
+
+                <div class="product-card__footer">
+                  <p class="product-card__price">
+                    <span class="product-card__price-current"> 420 €</span>
+
+                    <span class="product-card__price-old">580 €</span>
+                  </p>
+
+                  <button
+                    type="button"
+                    class="product-card__add-to-cart"
+                    aria-label="Ajouter au panier"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      aria-hidden="true"
+                      focusable="false"
+                    >
+                      <path
+                        d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0  0 0 2-2V6l-3-4z"
+                      />
+                      <line x1="3" y1="6" x2="21" y2="6" />
+                      <path d="M16 10a4 4 0 0 1-8 0" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
           </div>
-          
         </div>
       </section>
     </main>
